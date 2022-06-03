@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">pharmacyHelper</string>
+    <string name="mainPageText">Информационно-\nсправочная система\nАптека</string>
+    <string name="finder">Найти лекарство</string>
+    <string name="middlePageText">Данное приложение поможет Вам\nнайти нужные препараты и\nинформацию о них\n\nУдобный и интуитивно понятный\nинтерфейс не даcт запутаться\n\nТакже, в меню профиля есть\nвозможность добавить напоминания\nо принятии лекарств</string>
 </resources>

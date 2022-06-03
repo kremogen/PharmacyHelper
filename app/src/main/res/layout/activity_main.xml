@@ -1,23 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00997B"
-    tools:context=".MainActivity" >
+    android:background="#FFFFFF"
+    android:theme="@android:style/Theme.Black.NoTitleBar"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/mainBlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/main_info" />
+
+    <ImageView
+        android:id="@+id/mainMark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/small_green_mark" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="190dp"
-        android:layout_height="69dp"
-        android:text="Информационно-\nсправочная система\n“Аптека”"
-        android:textColor="#FFFFFF"
-        android:gravity="center"
+        android:id="@+id/mainText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="170dp"
         android:fontFamily="sans-serif"
-        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/mainPageText"
+        android:textColor="#FFFFFF"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="458dp"
-        tools:ignore="MissingConstraints" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sideText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/middlePageText"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"/>
+
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="30dp"
+        android:backgroundTint="#EDEDED"
+        android:hint="@string/finder"
+        android:width="345dp"
+        android:height="32dp"
+        android:textSize="13sp" />
+
+
+</RelativeLayout>
