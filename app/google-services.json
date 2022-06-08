@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "500922624131",
+    "project_id": "pharmacy-86351",
+    "storage_bucket": "pharmacy-86351.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500922624131:android:aeac0b02ff7b2a9d2693b6",
+        "android_client_info": {
+          "package_name": "com.kremogen.pharmacyhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500922624131-hjguffk2qb4qjusndqt6vo3v547m77tr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF9Hy__boMG0XNKK-6pVXrxepfO5dQ0mA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500922624131-hjguffk2qb4qjusndqt6vo3v547m77tr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

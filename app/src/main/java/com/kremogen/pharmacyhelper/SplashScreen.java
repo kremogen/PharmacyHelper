@@ -18,7 +18,7 @@ public class SplashScreen extends Activity {
             @Override
             public void run() {
                 // По истечении времени, запускаем главный активити, а Splash Screen закрываем
-                Intent mainIntent = new Intent(SplashScreen.this, MainActivity.class);
+                Intent mainIntent = new Intent(SplashScreen.this, RegWindow.class);
                 SplashScreen.this.startActivity(mainIntent);
                 SplashScreen.this.finish();
             }
