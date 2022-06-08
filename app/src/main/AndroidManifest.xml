@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PharmacyHelper">
         <activity
+            android:name=".PharmacyWindow"
+            android:exported="false" />
+        <activity
             android:name=".SignInWindow"
             android:exported="false" />
         <activity
