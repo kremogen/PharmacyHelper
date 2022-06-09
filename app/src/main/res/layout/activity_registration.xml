@@ -33,6 +33,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#ffffff"
         android:hint="Пароль"
+        android:inputType="textPassword"
         android:textAlignment="center"
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
@@ -42,6 +43,7 @@
 
     <EditText
         android:id="@+id/confirm_pass"
+        android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#ffffff"

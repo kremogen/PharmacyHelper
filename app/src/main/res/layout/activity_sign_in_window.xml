@@ -33,6 +33,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#ffffff"
         android:hint="Пароль"
+        android:inputType="textPassword"
         android:textAlignment="center"
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
