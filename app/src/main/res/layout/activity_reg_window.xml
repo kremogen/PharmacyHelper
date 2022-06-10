@@ -38,5 +38,30 @@
         android:layout_marginTop="550dp"
         android:text="Вход" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="90dp"
+        android:gravity="center"
+        android:text="Информационно-справочная система Аптека"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sginSkip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="#00997B"
+        android:textColor="#ffffff"
+        android:textSize="10dp"
+        android:layout_marginTop="600dp"
+        android:stateListAnimator="@null"
+        android:text="Пропустить регистрацию" />
+
 
 </RelativeLayout>

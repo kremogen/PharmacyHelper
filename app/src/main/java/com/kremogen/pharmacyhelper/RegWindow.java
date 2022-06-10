@@ -33,5 +33,14 @@ public class RegWindow extends AppCompatActivity {
                 RegWindow.this.finish();
             }
         });
+
+        Button buttonSkipSign = (Button) findViewById(R.id.sginSkip);
+        buttonSkipSign.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent mainIntent = new Intent(RegWindow.this, MainActivity.class);
+                RegWindow.this.startActivity(mainIntent);
+                RegWindow.this.finish();
+            }
+        });
     }
 }

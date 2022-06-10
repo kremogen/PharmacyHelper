@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -40,6 +41,15 @@ public class Registration extends AppCompatActivity {
         signin = findViewById(R.id.signin);
         mAuth = FirebaseAuth.getInstance();
         mUser = mAuth.getCurrentUser();
+
+        ImageButton buttonBack = (ImageButton) findViewById(R.id.back);
+        buttonBack.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent mainIntent = new Intent(Registration.this, RegWindow.class);
+                Registration.this.startActivity(mainIntent);
+                Registration.this.finish();
+            }
+        });
 
         signin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -88,7 +98,7 @@ public class Registration extends AppCompatActivity {
     }
 
     private void sendUserToNextActivity() {
-        Intent intent = new Intent(Registration.this, PharmacyWindow.class);
+        Intent intent = new Intent(Registration.this, MainActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
     }
